@@ -4,11 +4,13 @@ import AddCategory from './components/AddCategory';
 import GifGrid from './components/GifGrid';
 import { v4 as uuidv4 } from 'uuid';
 const GifExpertApp = () => {
-  const [categories, setCategories] = useState(['One Punch']);
+  const [categories, setCategories] = useState(['Rick and morty']);
 
   return (
     <>
-      <h1 className='title'>Gif Expert App</h1>
+      <h1 className='title animate__animated animate__fadeIn'>
+        Gif Expert App
+      </h1>
       <AddCategory setCategories={setCategories} />
       <hr />
 
