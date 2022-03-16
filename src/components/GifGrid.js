@@ -10,7 +10,7 @@ const GifGrid = ({ category }) => {
 
   return (
     <>
-      <h3>{category}</h3>
+      <h3 className='title'>{category}</h3>
       <div className='gifs'>
         {React.Children.toArray(
           images.map((image) => <GifGridItem image={image} />)

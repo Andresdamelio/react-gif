@@ -23,7 +23,7 @@ const AddCategory = ({ setCategories }) => {
     <form onSubmit={handleSubmit}>
       <input
         type='text'
-        placeholder='Buscar categoría'
+        placeholder='Buscar gifs...'
         value={inputValue}
         onChange={handleInputChange}
       />

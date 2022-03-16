@@ -8,8 +8,7 @@ const GifExpertApp = () => {
 
   return (
     <>
-      {JSON.stringify(categories)}
-      <h2>Gif Expert App</h2>
+      <h1 className='title'>Gif Expert App</h1>
       <AddCategory setCategories={setCategories} />
       <hr />
 
