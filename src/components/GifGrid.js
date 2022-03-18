@@ -10,7 +10,9 @@ const GifGrid = ({ category }) => {
       {loading && <p className='paragraph'>cargando...</p>}
       <div className='gifs'>
         {React.Children.toArray(
-          images.map((image) => <GifGridItem image={image} />)
+          images.map((image) => (
+            <GifGridItem title={image.title} url={image.url} />
+          ))
         )}
       </div>
     </>
