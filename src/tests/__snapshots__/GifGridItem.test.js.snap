@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando componente <GifGridItem /> El componente <GifGridItem /> debe de mostrarse correctamente 1`] = `
+<div
+  className="card animate__animated animate__fadeIn"
+>
+  <img
+    alt="Rick And Morty GIF by Adult Swim"
+    src="https://media1.giphy.com/media/l41JU9pUyosHzWyuQ/giphy.gif?cid=9d23b6ac5mxoxi5d87is76lys6chl2gstpg822syzg1jrb8o&rid=giphy.gif&ct=g"
+  />
+  <p
+    className="paragraph"
+  >
+    Rick And Morty GIF by Adult Swim
+  </p>
+</div>
+`;
