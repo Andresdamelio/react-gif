@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando el comportamiento del componente <GifGrid /> Debe de mostrar items cuando se cargan images con useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="title"
+  >
+    One Punch
+  </h3>
+  <div
+    className="gifs"
+  >
+    <GifGridItem
+      key=".0"
+      title="rick and morty middle finger GIF"
+      url="https://media3.giphy.com/media/tJqyalvo9ahykfykAj/giphy.gif?cid=9d23b6ackteuvlgot4bz3fzckqfmb92abkdqiu998sj4im8s&rid=giphy.gif&ct=g"
+    />
+    <GifGridItem
+      key=".1"
+      title="Happy Season 1 GIF by Rick and Morty"
+      url="https://media2.giphy.com/media/cOKjNdJDbqNCm4n0Jm/giphy.gif?cid=9d23b6ackteuvlgot4bz3fzckqfmb92abkdqiu998sj4im8s&rid=giphy.gif&ct=g"
+    />
+    <GifGridItem
+      key=".2"
+      title="Count Me In Rick And Morty GIF"
+      url="https://media3.giphy.com/media/gk3R16JhLP8RUka2nD/giphy.gif?cid=9d23b6ackteuvlgot4bz3fzckqfmb92abkdqiu998sj4im8s&rid=giphy.gif&ct=g"
+    />
+    <GifGridItem
+      key=".3"
+      title="rick and morty GIF by Adult Swim"
+      url="https://media4.giphy.com/media/3Fdskc7J0timI/giphy.gif?cid=9d23b6ackteuvlgot4bz3fzckqfmb92abkdqiu998sj4im8s&rid=giphy.gif&ct=g"
+    />
+    <GifGridItem
+      key=".4"
+      title="Scared Rick And Morty GIF by Adult Swim"
+      url="https://media1.giphy.com/media/l378BzHA5FwWFXVSg/giphy.gif?cid=9d23b6ackteuvlgot4bz3fzckqfmb92abkdqiu998sj4im8s&rid=giphy.gif&ct=g"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Probando el comportamiento del componente <GifGrid /> Probando que el componente <GifGrid /> se renderiza de forma correcta 1`] = `
+<Fragment>
+  <h3
+    className="title"
+  >
+    One Punch
+  </h3>
+  <p
+    className="paragraph"
+  >
+    cargando...
+  </p>
+  <div
+    className="gifs"
+  />
+</Fragment>
+`;

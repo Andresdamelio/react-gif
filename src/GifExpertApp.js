@@ -3,8 +3,9 @@ import './index.css';
 import AddCategory from './components/AddCategory';
 import GifGrid from './components/GifGrid';
 import { v4 as uuidv4 } from 'uuid';
-const GifExpertApp = () => {
-  const [categories, setCategories] = useState(['Rick and morty']);
+const GifExpertApp = ({ defaultCategories = [] }) => {
+  const [categories, setCategories] = useState(defaultCategories);
+  // const [categories, setCategories] = useState(['Rick and morty']);
 
   return (
     <>
