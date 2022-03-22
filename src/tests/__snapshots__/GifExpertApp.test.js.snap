@@ -13,15 +13,15 @@ exports[`Probando el funcionamiento de <GifExpertApp /> <GifExpertApp /> debe de
   <hr />
   <GifGrid
     category="One Punch"
-    key="b734ba2e-9214-4d25-b0b9-79862a15fab9"
+    key="1271a043-b223-4d88-8b8f-0a8180fb4f8e"
   />
   <GifGrid
     category="Samurai X"
-    key="a6376d6e-5652-4a43-a126-4d708cf3d446"
+    key="fc0170fa-73b9-4705-8c78-a7d62bffe0f8"
   />
   <GifGrid
     category="Dragon Ball"
-    key="01f32e85-5a07-484d-9a6b-671340606802"
+    key="fdd71d75-5dea-4443-a5aa-fe0c869bec29"
   />
 </Fragment>
 `;
